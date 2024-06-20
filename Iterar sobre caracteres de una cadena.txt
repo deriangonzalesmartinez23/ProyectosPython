@@ -1,0 +1,3 @@
+cadena = "Programar es Genial"
+for indice, caracter in enumerate(cadena):
+    print(f"Carácter en el índice {indice}: {caracter}")

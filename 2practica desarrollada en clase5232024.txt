@@ -1,0 +1,48 @@
+#ejempo string
+
+#Creacion de cadenas
+cadena1='Hola, mundo!'
+cadena2= "interpretado y orientado a objetos. Es uno de los códigos más utilizados en la actualidad, especialmente en disciplinas como la Inteligencia Artificial o el Desarrollo Web!"
+#Multilinea
+
+cadenanaMultilnea="""Python es un lenguaje de programación de alto nivel,
+interpretado y orientado a objetos. Es uno de los códigos más utilizados en la actualidad, especialmente en disciplinas como la Inteligencia Artificial o el Desarrollo Web
+interpretado y orientado a objetos. Es uno de los códigos más utilizados en la actualidad, especialmente en disciplinas como la Inteligencia Artificial o el Desarrollo Web
+interpretado y orientado a objetos. Es uno de los códigos más utilizados en la actualidad, especialmente en disciplinas como la Inteligencia Artificial o el Desarrollo Web
+interpretado y orientado a objetos. Es uno de los códigos más utilizados en la actualidad, especialmente en disciplinas como la Inteligencia Artificial o el Desarrollo Web
+interpretado y orientado a objetos. Es uno de los códigos más utilizados en la actualidad, especialmente en disciplinas como la Inteligencia Artificial o el Desarrollo Web
+interpretado y orientado a objetos. Es uno de los códigos más utilizados en la actualidad, especialmente en disciplinas como la Inteligencia Artificial o el Desarrollo Web
+interpretado y orientado a objetos. Es uno de los códigos más utilizados en la actualidad, especialmente en disciplinas como la Inteligencia Artificial o el Desarrollo Web
+interpretado y orientado a objetos. Es uno de los códigos más utilizados en la actualidad, especialmente en disciplinas como la Inteligencia Artificial o el Desarrollo Web
+interpretado y orientado a objetos. Es uno de los códigos más utilizados en la actualidad, especialmente en disciplinas como la Inteligencia Artificial o el Desarrollo Web
+"""
+saludo="Hola"
+nombre="Mundo"
+
+#Concatenacion
+frase=saludo+","+nombre
+
+#Repeticion
+
+repeticion= "Hola  "*14
+
+repeticion1=" \n Hola \n"*4
+
+#Logintud de string
+
+logitud=len(cadenanaMultilnea)
+
+
+#Acceso a un caracter
+cadena="Carlos"
+print(cadena[1:4])#salida:a
+print(cadena[-1])#salida:a
+
+
+print(cadena1)
+print(cadena2)
+print(cadenanaMultilnea)
+print(frase)
+print(repeticion)
+print(repeticion1)
+print("La logitud de esta cadena es:", logitud)

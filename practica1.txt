@@ -1,0 +1,19 @@
+#variables
+
+
+
+num1=50
+num2=90
+
+suma=num1+num2
+producto=num1*num2
+
+#preciot total de la cantidad por articulos
+print('la suma de los dos primeros valores son:')
+print(suma)
+
+print('El productos de los valores son:')
+print(producto)
+
+
+print ("Fin del programa")

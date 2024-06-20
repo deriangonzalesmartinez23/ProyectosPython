@@ -1,0 +1,11 @@
+# Solicitar dos números enteros al usuario
+
+    num1 = int(input("Ingresa el primer número entero: "))
+    num2 = int(input("Ingresa el segundo número entero: "))
+    
+    # Realizar la suma de los números
+    suma = num1 + num2
+    
+    # Mostrar el resultado
+    print("La suma de {num1} y {num2} es: {suma}")
+    print("Ingresa números enteros válidos.")
